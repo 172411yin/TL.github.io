@@ -134,6 +134,11 @@ body {
 .timeline-header h3 { font-size: 17px; font-weight: 600; color: var(--primary-color); }
 .date { font-size: 14px; color: var(--meta-color); }
 .institution { font-size: 15px; color: var(--text-color); margin-bottom: 4px; }
+.institution-link { color: var(--secondary-color); text-decoration: none; font-weight: 500; }
+.institution-link:hover { text-decoration: underline; }
+.institution-link:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 2px; }
+.education-english { margin-left: 6px; color: var(--meta-color); font-size: 0.9em; font-weight: 400; }
+.education-separator { margin: 0 6px; color: var(--meta-color); }
 .advisor { font-size: 14px; color: var(--meta-color); }
 .section-note { font-size: 13px; color: var(--meta-color); margin-bottom: 16px; font-style: italic; }
 .paper-list { display: flex; flex-direction: column; gap: 12px; }

@@ -39,23 +39,35 @@ window.resumeData = {
             items: [
                 {
                     degree: "博士研究生",
+                    degreeEnglish: "Ph.D. Student",
                     date: "2026.09 - 至今",
                     institution: "中山大学",
+                    institutionEnglish: "Sun Yat-sen University",
+                    institutionUrl: "https://www.sysu.edu.cn/",
                     major: "航空宇航科学与技术",
+                    majorEnglish: "Aeronautical and Astronautical Science and Technology",
                     advisor: "导师：王继河、张承玺"
                 },
                 {
                     degree: "硕士研究生",
+                    degreeEnglish: "Master's Student",
                     date: "2023.09 - 2026.06",
                     institution: "江南大学",
+                    institutionEnglish: "Jiangnan University",
+                    institutionUrl: "https://www.jiangnan.edu.cn/",
                     major: "控制科学与工程",
+                    majorEnglish: "Control Science and Engineering",
                     advisor: "导师：张承玺"
                 },
                 {
                     degree: "学士",
+                    degreeEnglish: "Bachelor's Degree",
                     date: "2019.09 - 2023.06",
                     institution: "安徽工程大学",
-                    major: "自动化"
+                    institutionEnglish: "Anhui Polytechnic University",
+                    institutionUrl: "https://www.ahpu.edu.cn/",
+                    major: "自动化",
+                    majorEnglish: "Automation"
                 }
             ]
         },

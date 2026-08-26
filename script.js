@@ -130,14 +130,28 @@ function renderEducation(id, section) {
     const content = section.items.map((item) => `
         <div class="timeline-item">
             <div class="timeline-header">
-                <h3>${escapeHtml(item.degree)}</h3>
+                <h3>${escapeHtml(item.degree)}${item.degreeEnglish ? `<span class="education-english">${escapeHtml(item.degreeEnglish)}</span>` : ""}</h3>
                 <span class="date">${escapeHtml(item.date)}</span>
             </div>
-            <p class="institution">${escapeHtml(item.institution)} | ${escapeHtml(item.major)}</p>
+            <p class="institution">
+                ${renderInstitutionLink(item)}
+                <span class="education-separator">|</span>
+                <span>${escapeHtml(item.major)}</span>
+                ${item.majorEnglish ? `<span class="education-english">${escapeHtml(item.majorEnglish)}</span>` : ""}
+            </p>
             ${item.advisor ? `<p class="advisor">${escapeHtml(item.advisor)}</p>` : ""}
         </div>
     `).join("");
     return renderSectionFrame(id, section.title, content);
+}
+
+function renderInstitutionLink(item) {
+    const institutionText = `${escapeHtml(item.institution)}${item.institutionEnglish ? ` <span class="education-english">${escapeHtml(item.institutionEnglish)}</span>` : ""}`;
+    if (!item.institutionUrl) {
+        return `<span>${institutionText}</span>`;
+    }
+
+    return `<a class="institution-link" href="${escapeHtml(item.institutionUrl)}" target="_blank" rel="noopener noreferrer">${institutionText}</a>`;
 }
 
 function renderPapers(id, section) {
