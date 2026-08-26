@@ -9,7 +9,7 @@ window.resumeData = {
     profile: {
         name: "尹天乐",
         englishName: "Tianle Yin",
-        headline: "博士研究生 | 巨型星座管理与控制 | 江南大学",
+        headline: "博士研究生 | 中山大学 | 航空航天学院",
         photo: "photo.jpg",
         contacts: [
             { type: "phone", label: "18905616670", href: "tel:18905616670" },
@@ -25,10 +25,10 @@ window.resumeData = {
             navLabel: "概述",
             title: "研究概述",
             paragraphs: [
-"Yin Tianle was born in August 2001 in Huaibei, Anhui Province, China. He received his B.E. degree in Automation from Anhui Polytechnic University in June 2023 (2019.09–2023.06), and his M.E. degree in Control Science and Engineering from Jiangnan University in June 2026 (2023.09–2026.06), where he was recognized as an Outstanding Master’s Graduate. He is currently pursuing a Ph.D. degree in Aeronautical and Astronautical Science and Technology at Sun Yat-sen University (2026.06–present).",
-"His research focuses on the hierarchical management, maintenance, and servicing of mega-constellations. He has published several high-quality papers in leading journals, including IEEE Transactions on Aerospace and Electronic Systems (IEEE TAES). He is an IEEE Student Member and serves as a reviewer for several SCI/EI-indexed journals. His honors include the National Scholarship and an Outstanding Paper Award at the Jiangsu Graduate Academic Innovation Forum, among others.",
-                "尹天乐，2001 年 8 月出生，安徽淮北人。本科毕业于安徽工程大学自动化专业（2019.09-2023.06）。硕士毕业于江南大学控制科学与工程专业硕士研究生（2023.09-2026.06），并获得江南大学优秀硕士毕业生。目前正在中山大学攻读航空宇航科学与技术专业博士研究生（2026.06-至今）。",
-                "研究方向聚焦于巨型星座层次化管理 - 维持 - 服务，在 IEEE TAES 等顶级期刊发表多篇高水平论文。担任 IEEE Student Member、多个 SCI/EI 期刊审稿人。荣获国家奖学金、江苏省研究生学术创新论坛最佳论文优秀奖等荣誉。"
+"Yin Tianle was born in August 2001 in Huaibei, Anhui Province, China. He received his B.E. degree in Automation from Anhui Polytechnic University in June 2023 (2019.09–2023.06), and his M.E. degree in Control Science and Engineering from Jiangnan University in June 2026 (2023.09–2026.06), where he was recognized as an Outstanding Master’s Graduate. He is currently pursuing a Ph.D. degree in Aeronautical and Astronautical Science and Technology at Sun Yat-sen University (2026.09–present).",
+"His research focuses on the optimization of hierarchical management and control for mega-constellations, and intelligent spacecraft control, among other areas. He has published several high-quality papers in leading journals, including IEEE Transactions on Aerospace and Electronic Systems (IEEE TAES). He is an IEEE Student Member and serves as a reviewer for several SCI/EI-indexed journals. His honors include the National Scholarship and an Outstanding Paper Award at the Jiangsu Graduate Academic Innovation Forum, among others.",
+                "尹天乐，2001 年 8 月出生，安徽淮北人。本科毕业于安徽工程大学自动化专业（2019.09-2023.06）。硕士毕业于江南大学控制科学与工程专业硕士研究生（2023.09-2026.06），并获得江南大学优秀硕士毕业生。目前正在中山大学攻读航空宇航科学与技术专业博士研究生（2026.09-至今）。",
+                "研究方向聚焦于巨型星座层次化管控优化、航天器智能化控制等方面，在 IEEE TAES 等顶级期刊发表多篇高水平论文。担任 IEEE Student Member、多个 SCI/EI 期刊审稿人。荣获国家奖学金、江苏省研究生学术创新论坛最佳论文优秀奖等荣誉。"
             ]
         },
 
@@ -237,8 +237,8 @@ window.resumeData = {
 
     footer: {
         owner: "尹天乐",
-        affiliation: "江南大学",
-        homepageLabel: "个人主页",
-        homepageUrl: "https://172411yin.github.io/"
+        affiliation: "中山大学",
+        homepageLabel: "谷歌学术",
+        homepageUrl: "https://scholar.google.com.hk/citations?user=wUmhWDgAAAAJ&hl=zh-CN"
     }
 };
